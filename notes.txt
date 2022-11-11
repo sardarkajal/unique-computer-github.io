@@ -1,0 +1,46 @@
+CSS defines three types of gradients:
+
+Linear Gradients (goes down/up/left/right/diagonally)
+Radial Gradients (defined by their center)
+Conic Gradients (rotated around a center point)
+
+Linear Gradients (goes down/up/left/right/diagonally)
+a)background-image: linear-gradient(direction, color-stop1, color-stop2, ...);
+
+
+CSS Radial Gradients
+A radial gradient is defined by its center.
+
+To create a radial gradient you must also define at least two color stops.
+
+Syntax
+b)background-image: radial-gradient(shape size at position, start-color, ..., last-color);
+
+Radial Gradient - Evenly Spaced Color Stops (this is default)
+
+
+CSS Conic Gradients
+A conic gradient is a gradient with color transitions rotated around a center point.
+
+To create a conic gradient you must define at least two colors.
+
+Syntax
+background-image: conic-gradient([from angle] [at position,] color [degree], color [degree], ...);
+
+
+
+****************************************************CSS pointer-events Property***************************
+
+
+
+CSS Syntax
+
+pointer-events: auto|none;=jr aapn nono lihil anchor tag element vr click kelyavr pn react honar nahi
+
+Property Values
+Property Value	Description
+auto:		The element reacts to pointer events, like :hover and click. This is default
+none:		The element does not react to pointer events
+initial:	Sets this property to its default value. Read about initial
+inherit	:	Inherits this property from its parent element. Read about inherit
+
