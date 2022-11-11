@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-shadow: border-box;
+}
+
+body{
+	background-color:#323e55;
+	font-family: 'Roboto',serif;
+	min-height:100vh ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	flex-direction: column;
+}
+
+
+/*General style end*/
+
+.inputbox
+{
+	position: relative;
+	width: 250px;
+	transition: border-radius;
+	transition: 0.5s;
+}
+.inputbox input
+{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid rgb(255, 255, 255,0.7);
+	background: rgb(50, 62, 85);
+	border-radius: 5px;
+	outline: none;
+	color: #fff;
+	font-size: 1em;
+	transition: border-radius;
+	transition: 0.5s;
+}
+
+
+.inputbox span
+{
+	position: absolute;
+	left: 0;
+	position: 10px;
+	pointer-events: none;
+	font-size: 1.1em;
+	letter-spacing: 0.2em;
+	color: rgba(255, 255, 255, 0.7);
+	text-transform: uppercase;
+	transition: 0.5s;
+	}
+

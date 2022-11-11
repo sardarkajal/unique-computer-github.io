@@ -1,0 +1,86 @@
+ 
+1)-webkit-text-stroke =name(any keyword) chya borderla dekoret krte
+ 2)text-transform:uppercase= asel tr je kahi keyword asl tr te capital madhe honar
+   eg .kajal=>KAJAL
+ *******************************project 6**************************************************************
+ 3)<button></button>:create the botton tya vr click hote
+ 4)padding :12px =use mokde pna keyword madhe yete
+ 5)width:190px =use rundi vadvaychi asl tr width use krun shkto aapn
+ 6)cursor:pointer// keyword vrti pointer show honar
+ 7)background-color:red//back color change honar red
+                    1):transparent //asl tr white color asto
+ 8)color:white;  //keyword cha color change honar lets white
+ 9)transition:.5s ease /// 5 second sadhi border madhe change honar
+10) border-radius=10px; //4 pn side ni gol aakar yenar
+11)box-shadow:px px px px color;
+              :
+12)text-decoration=underline||line-through||overline||none
+keyword or sentence la line vr line madhatum line sadhi aapn property use kru shkto
+13)text-indent: 30px;
+madhe paragharaph type sarkh use hote starting space 
+eg:his agreement applies to the Windows software 
+output: 	his a.........
+14)word-spacing:20px;
+madhe word madhe space create hote
+15)letter-spacing:10px;
+madhe letter madhe 10px chi space yenar
+16)line-height:20px;
+madhe line chi height pn change kru shkto height ani by default height 20px aste
+17)text-align:left|center|right|justify
+left:left side ni ekachya khali ek sentence barobr
+right:right side ni ekachya khali ek sentence barobr
+center:center left side ni ekachya khali ek sentence barobr
+justify:right ani left side ni ekachya khali ek sentence barobr
+18)text-shadow:H V blur color:
+H=horizonal
+v=vertical
+*********************************************project 7.html***********************************************************************
+
+ 1)External stylesheet use kli aah
+syntax:<link rel="stylesheet" href=" css file name">
+ 2) ek <div>tag=divison;</div>
+
+    tyat class tag use kla aahe "container"
+	eg:class="container"
+3) tyat img taknya sadhi <img src="url"> tag use kla aahe
+********************************************project 7.css8************************************************************************
+1)body tag madhe margin :0px,height=100vh,padding:px ,width:px;ghetli aahe
+tyat display:flex; he cammand madhomadh display honya sadhi use hote
+2)img rotate krnya sadhi&& transform: rotate(-30deg) skew(25deg) scale(0.8);
+3)background:rgba(0 0 0 0-1)/a=alpha thodusa light krnya sadhi use hote
+4)img eka ve ek ya sadhi aapn hover +nth-child use kl
+eg:.container:hover img:nth-child(1)
+{
+	transform: translate(40px,-40px);
+	opacity: 4;
+}
+
+
+********************************************project 8 html****************************************************
+1) eka class="container" madhe tin separate class="ring" div ghetle aahe 
+
+
+2)animation:
+ease - Specifies an animation with a slow start, then fast, then end slowly (this is default)
+linear - Specifies an animation with the same speed from start to end
+ease-in - Specifies an animation with a slow start
+ease-out - Specifies an animation with a slow end
+ease-in-out - Specifies an animation with a slow start and end
+cubic-bezier(n,n,n,n) - Lets you define your own values in a cubic-bezier function
+
+
+
+**************************************************project10*************************************************************************************************
+
+1)height:100vh =vh:viewport height
+  	vh is the height of the viewport,1vh=1% of the viewport height
+
+2) text-shadow:hertical veritical blur color;
+
+3)filter:hue-rotate(deg)|none|brightness(%)|bulr(px)|drop-shadow(px)|url()|saturate(%);
+
+
+
+
+		 
+
